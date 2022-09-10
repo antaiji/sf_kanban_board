@@ -19,7 +19,7 @@ const Button = ({ isActive, toggle, id, disabled }) => {
     if (disabled && id !== 1) {
       btn = (
         <button className={styles.button_disabled} type="button" disabled>
-          +Add cardy
+          +Add card
         </button>
       );
     } else {
